@@ -2,7 +2,29 @@
 
 footer {
   @include link-default-styles;
-
+  display: flex;
+  justify-content: space-between;
   background-color: $black;
   color: $white;
+  margin-top: 7rem;
+
+  > div {
+    padding: 2rem 0;
+
+    &:nth-child(2) {
+      text-align: right;
+
+      .social-media {
+        i:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+
+      .copyright {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        color: $darkGray;
+      }
+    }
+  }
 }
