@@ -36,11 +36,27 @@ body {
   background: url("../images/desktop/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  font-family: "Alata", sans-serif;
 }
 
 body header,
 body footer,
 body main > section {
   padding: 0 8rem;
+}
+
+body h1,
+body h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 40%;
+  font-weight: 400;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 2rem;
 }
 /*# sourceMappingURL=main.css.map */
