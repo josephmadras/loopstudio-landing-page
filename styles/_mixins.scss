@@ -1,0 +1,15 @@
+@mixin link-default-styles {
+  ul {
+    display: flex;
+    list-style: none;
+
+    li:not(:last-child) {
+      padding-right: 1.5rem;
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
