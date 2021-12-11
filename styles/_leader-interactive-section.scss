@@ -27,4 +27,39 @@
       }
     }
   }
+
+  @include mobile-device-styles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    // padding: 2rem 10rem;
+
+    > div {
+      width: 400px;
+
+      &:first-child {
+        img {
+          width: 90%;
+        }
+      }
+
+      &:nth-child(2) {
+        background-color: $white;
+        padding: 2rem 4rem;
+        // padding: 0;
+        margin-left: 0;
+
+        h1 {
+          width: 100%;
+          margin-bottom: 0.7rem;
+        }
+
+        p {
+          color: $darkGray;
+        }
+      }
+    }
+  }
 }
