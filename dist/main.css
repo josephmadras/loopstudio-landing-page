@@ -12,7 +12,7 @@ header {
 }
 
 header div {
-  width: 150px;
+  width: 10.714285rem;
 }
 
 header div > img {
@@ -56,30 +56,63 @@ body main > section {
 body h1,
 body h2 {
   font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .hero {
-  background: url("../images/desktop/image-hero.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: 10%;
-  background-size: cover;
-  height: 65vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 10%;
+  background-size: cover;
+  height: 65vh;
 }
 
 .hero h1 {
   font-size: 3rem;
-  text-transform: uppercase;
   width: 40%;
   font-weight: 400;
   color: white;
   border: 1px solid white;
   padding: 1rem 2rem;
+}
+
+.leader-interactive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 5rem 8rem;
+}
+
+.leader-interactive > div {
+  width: 50%;
+}
+
+.leader-interactive > div:first-child img {
+  width: 100%;
+}
+
+.leader-interactive > div:nth-child(2) {
+  background-color: white;
+  padding: 2rem 4rem;
+  margin-left: -10rem;
+}
+
+.leader-interactive > div:nth-child(2) h1 {
+  width: 70%;
+  margin-bottom: 0.7rem;
+}
+
+.leader-interactive > div:nth-child(2) p {
+  color: #8c8c8c;
 }
 /*# sourceMappingURL=main.css.map */

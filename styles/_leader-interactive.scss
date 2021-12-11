@@ -1,0 +1,30 @@
+.leader-interactive {
+  display: flex;
+  align-items: flex-end;
+  padding: 5rem 8rem;
+
+  > div {
+    width: 50%;
+
+    &:first-child {
+      img {
+        width: 100%;
+      }
+    }
+
+    &:nth-child(2) {
+      background-color: $white;
+      padding: 2rem 4rem;
+      margin-left: -10rem;
+
+      h1 {
+        width: 70%;
+        margin-bottom: 0.7rem;
+      }
+
+      p {
+        color: $darkGray;
+      }
+    }
+  }
+}
