@@ -1,4 +1,14 @@
 .hero {
+  background: url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 10%;
+  background-size: cover;
+  height: 65vh;
+
+  display: flex;
+  align-items: center;
+  // width: 100%;
   h1 {
     font-size: 3rem;
     text-transform: uppercase;

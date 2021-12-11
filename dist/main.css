@@ -5,7 +5,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
 }
 
 header ul {
@@ -33,9 +36,6 @@ header ul a {
 
 body {
   font-size: 1.07143rem;
-  background: url("../images/desktop/image-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
   font-family: "Alata", sans-serif;
 }
 
@@ -48,6 +48,21 @@ body main > section {
 body h1,
 body h2 {
   font-family: "Josefin Sans", sans-serif;
+}
+
+.hero {
+  background: url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 10%;
+  background-size: cover;
+  height: 65vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero h1 {
