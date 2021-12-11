@@ -9,7 +9,7 @@
         "../styles/_globals.scss",
         "../styles/_mixins.scss",
         "../styles/_hero.scss",
-        "../styles/_leader-interactive.scss"
+        "../styles/_leader-interactive-section.scss"
     ],
     "names": [],
     "file": "main.css"
