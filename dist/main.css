@@ -136,6 +136,7 @@ body h2 {
 .our-creation .see-all span {
   border: 1px solid black;
   padding: 0.5rem 1rem;
+  text-transform: uppercase;
 }
 
 .our-creation .list {
@@ -204,5 +205,26 @@ body h2 {
 .our-creation .list__item8 {
   background-image: url("../images/desktop/image-fisheye.jpg");
   background-repeat: no-repeat;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer ul li:not(:last-child) {
+  padding-right: 1.5rem;
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

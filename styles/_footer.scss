@@ -1,0 +1,8 @@
+@import "mixins";
+
+footer {
+  @include link-default-styles;
+
+  background-color: $black;
+  color: $white;
+}
