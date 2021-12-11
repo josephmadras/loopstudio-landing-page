@@ -20,6 +20,11 @@ footer {
         i:not(:last-child) {
           margin-right: 1rem;
         }
+
+        i:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
       }
 
       .copyright {
