@@ -6,7 +6,9 @@
 
 body {
   font-size: $bodyFontSize;
-
+  background: url("../images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   header,
   footer,
   main > section {
