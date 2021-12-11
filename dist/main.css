@@ -134,19 +134,23 @@ body h2 {
   width: 50%;
 }
 
-.our-creation .see-all {
+.our-creation__title {
+  font-weight: 200;
+}
+
+.our-creation__see-all {
   text-align: right;
   margin-left: auto;
 }
 
-.our-creation .see-all span {
+.our-creation__see-all span {
   border: 1px solid black;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
 
-.our-creation .list {
+.our-creation__card-list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -156,7 +160,7 @@ body h2 {
   margin-top: 50px;
 }
 
-.our-creation .list > div {
+.our-creation__card-list > * {
   height: 28rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,49 +171,49 @@ body h2 {
   background-size: cover;
 }
 
-.our-creation .list > div h2 {
+.our-creation__card-list > * h2 {
   color: white;
   width: 60%;
   padding: 0 0 2rem 1rem;
   font-weight: 200;
 }
 
-.our-creation .list__item1 {
+.our-creation__card-list__item1 {
   background-image: url("../images/desktop/image-deep-earth.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item2 {
+.our-creation__card-list__item2 {
   background-image: url("../images/desktop/image-night-arcade.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item3 {
+.our-creation__card-list__item3 {
   background-image: url("../images/desktop/image-soccer-team.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item4 {
+.our-creation__card-list__item4 {
   background-image: url("../images/desktop/image-grid.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item5 {
+.our-creation__card-list__item5 {
   background-image: url("../images/desktop/image-from-above.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item6 {
+.our-creation__card-list__item6 {
   background-image: url("../images/desktop/image-pocket-borealis.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item7 {
+.our-creation__card-list__item7 {
   background-image: url("../images/desktop/image-curiosity.jpg");
   background-repeat: no-repeat;
 }
 
-.our-creation .list__item8 {
+.our-creation__card-list__item8 {
   background-image: url("../images/desktop/image-fisheye.jpg");
   background-repeat: no-repeat;
 }

@@ -6,7 +6,11 @@
     width: 50%;
   }
 
-  .see-all {
+  &__title {
+    font-weight: 200;
+  }
+
+  &__see-all {
     text-align: right;
     margin-left: auto;
 
@@ -18,14 +22,14 @@
     }
   }
 
-  .list {
+  &__card-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     gap: 35px;
     margin-top: 50px;
 
-    > div {
+    > * {
       height: 28rem;
       display: flex;
       align-items: flex-end;
