@@ -115,4 +115,94 @@ body h2 {
 .leader-interactive > div:nth-child(2) p {
   color: #8c8c8c;
 }
+
+.our-creation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.our-creation > * {
+  width: 50%;
+}
+
+.our-creation .see-all {
+  text-align: right;
+  margin-left: auto;
+}
+
+.our-creation .see-all span {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.our-creation .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.our-creation .list > div {
+  height: 28rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-size: cover;
+}
+
+.our-creation .list > div h2 {
+  color: white;
+  width: 60%;
+  padding: 0 0 2rem 1rem;
+  font-weight: 200;
+}
+
+.our-creation .list__item1 {
+  background-image: url("../images/desktop/image-deep-earth.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item2 {
+  background-image: url("../images/desktop/image-night-arcade.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item3 {
+  background-image: url("../images/desktop/image-soccer-team.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item4 {
+  background-image: url("../images/desktop/image-grid.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item5 {
+  background-image: url("../images/desktop/image-from-above.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item6 {
+  background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item7 {
+  background-image: url("../images/desktop/image-curiosity.jpg");
+  background-repeat: no-repeat;
+}
+
+.our-creation .list__item8 {
+  background-image: url("../images/desktop/image-fisheye.jpg");
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=main.css.map */
