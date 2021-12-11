@@ -1,7 +1,10 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // overflow-x: hidden;
 }
 
 body {
@@ -18,6 +21,14 @@ body {
   h2 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
+  }
+
+  @include mobile-device-styles {
+    header,
+    footer,
+    main > section {
+      padding: 0 2rem;
+    }
   }
 }
 

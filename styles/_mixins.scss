@@ -38,6 +38,9 @@
 
 @mixin mobile-device-styles {
   @media screen and (max-width: 767px) {
+    // main > section {
+    //   padding: 0 0;
+    // }
     @content;
   }
 }
