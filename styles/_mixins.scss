@@ -24,3 +24,8 @@
     }
   }
 }
+
+@mixin card-image($url) {
+  background-image: $url;
+  background-repeat: no-repeat;
+}

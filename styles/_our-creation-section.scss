@@ -43,37 +43,11 @@
       }
     }
 
-    &__item1 {
-      background-image: url("../images/desktop/image-deep-earth.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item2 {
-      background-image: url("../images/desktop/image-night-arcade.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item3 {
-      background-image: url("../images/desktop/image-soccer-team.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item4 {
-      background-image: url("../images/desktop/image-grid.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item5 {
-      background-image: url("../images/desktop/image-from-above.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item6 {
-      background-image: url("../images/desktop/image-pocket-borealis.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item7 {
-      background-image: url("../images/desktop/image-curiosity.jpg");
-      background-repeat: no-repeat;
-    }
-    &__item8 {
-      background-image: url("../images/desktop/image-fisheye.jpg");
-      background-repeat: no-repeat;
+    @for $i from 1 through length($images) {
+      $currentImage: nth($images, $i);
+      &__item#{$i} {
+        @include card-image($currentImage);
+      }
     }
   }
 }

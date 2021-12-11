@@ -1,3 +1,5 @@
+@use "sass:list";
+
 //Colors
 $white: hsl(0, 0%, 100%);
 $black: hsl(0, 0%, 0%);
@@ -6,3 +8,17 @@ $veryDarkGray: hsl(0, 0%, 41%);
 
 //Font
 $bodyFontSize: 1.07142857rem; // = 15px/14
+
+//Images
+$deepEarth: url("../images/desktop/image-deep-earth.jpg");
+$fisheye: url("../images/desktop/image-fisheye.jpg");
+$pocketBorealis: url("../images/desktop/image-pocket-borealis.jpg");
+$fromAbove: url("../images/desktop/image-from-above.jpg");
+$grid: url("../images/desktop/image-grid.jpg");
+$soccerTeam: url("../images/desktop/image-soccer-team.jpg");
+$nightArcade: url("../images/desktop/image-night-arcade.jpg");
+$curiosity: url("../images/desktop/image-curiosity.jpg");
+
+//List of images
+$images: $deepEarth, $nightArcade, $soccerTeam, $grid, $fromAbove,
+  $pocketBorealis, $curiosity, $fisheye;
