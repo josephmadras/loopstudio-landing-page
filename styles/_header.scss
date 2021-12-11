@@ -3,10 +3,17 @@
 header {
   display: flex;
   justify-content: space-between;
-  // margin-top: 1.5rem;
   position: absolute;
   top: 1.5rem;
   left: 0.5rem;
   right: 0.5rem;
+
+  div {
+    width: 150px;
+    > img {
+      width: 100%;
+    }
+  }
+
   @include link-default-styles;
 }

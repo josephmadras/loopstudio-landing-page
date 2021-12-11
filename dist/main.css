@@ -11,6 +11,14 @@ header {
   right: 0.5rem;
 }
 
+header div {
+  width: 150px;
+}
+
+header div > img {
+  width: 100%;
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
