@@ -15,3 +15,12 @@
     }
   }
 }
+
+@mixin logo-style($size) {
+  .logo {
+    width: $size; // Equivalent to 150px
+    > img {
+      width: 100%;
+    }
+  }
+}

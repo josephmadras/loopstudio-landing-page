@@ -8,12 +8,6 @@ header {
   left: 0.5rem;
   right: 0.5rem;
 
-  div {
-    width: 10.714285rem; // Equivalent to 150px
-    > img {
-      width: 100%;
-    }
-  }
-
+  @include logo-style(10.714285rem);
   @include link-default-styles;
 }

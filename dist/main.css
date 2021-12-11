@@ -11,11 +11,11 @@ header {
   right: 0.5rem;
 }
 
-header div {
-  width: 10.714285rem;
+header .logo {
+  width: 10.71429rem;
 }
 
-header div > img {
+header .logo > img {
   width: 100%;
 }
 
@@ -246,6 +246,14 @@ footer ul a {
   text-decoration: none;
   font-weight: none;
   font-size: 0.9rem;
+}
+
+footer .logo {
+  width: 8.5rem;
+}
+
+footer .logo > img {
+  width: 100%;
 }
 
 footer > div {
